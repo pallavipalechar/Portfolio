@@ -164,6 +164,15 @@ const skillGroups = [
 ];
 
 const certifications = [
+  { name: 'Claude 101',
+    issuer: 'Anthropic',
+    focus: 'Claude AI, Prompt EngineeringAI-Assisted Writing, Research & Analysis, Productivity Workflows'
+  },
+  {
+    name: 'AI Fluency: Framework & Foundations',
+    issuer: 'Anthropic',
+    focus: 'AI Fundamentals, AI Literacy, Responsible AI, AI Applications, Prompt Engineering, Critical Evaluation of AI Outputs',
+  },
   {
     name: 'AI Whisperer - Crafting Effective Prompts',
     issuer: 'University of South Florida',
