@@ -93,7 +93,7 @@ const projects = [
     date: 'May 2026',
     stack: 'Python, React.js',
     link: 'https://github.com/pallavipalechar/IronGuard-Chat',
-    open: 'https://ironguard-chat.vercel.app/',
+    open: 'https://iron-guard-chat-new.vercel.app/',
     bullets: [
       'Developed a full-stack AI chatbot using React frontend and Flask backend integrated with GPT-2 Medium from Hugging Face, improving response handling efficiency by 70%.',
       'Implemented a risk analysis filter system to detect and block harmful prompts before model processing.',
