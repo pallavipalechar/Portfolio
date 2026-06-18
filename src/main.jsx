@@ -93,6 +93,7 @@ const projects = [
     date: 'May 2026',
     stack: 'Python, React.js',
     link: 'https://github.com/pallavipalechar/IronGuard-Chat',
+    open: 'https://ironguard-chat.vercel.app/',
     bullets: [
       'Developed a full-stack AI chatbot using React frontend and Flask backend integrated with GPT-2 Medium from Hugging Face, improving response handling efficiency by 70%.',
       'Implemented a risk analysis filter system to detect and block harmful prompts before model processing.',
@@ -103,6 +104,7 @@ const projects = [
     date: 'January 2026',
     stack: 'Next.js, Tailwind CSS',
     link: 'https://github.com/pallavipalechar/Kalpavedike',
+    open: 'https://kalpavedike.vercel.app/',
     bullets: [
       'Built and deployed a fully functional website, improving accessibility and user engagement for devotees.',
       'Improved performance and responsiveness, achieving 30% faster load times and ensuring a seamless experience across devices.',
@@ -113,6 +115,7 @@ const projects = [
     date: 'August 2025',
     stack: 'Python, PHP, JavaScript, CSS, Bootstrap',
     link: 'https://github.com/pallavipalechar/EZWitness',
+    open: 'https://ezwitness.vercel.app/',
     bullets: [
       'Designed responsive frontend interfaces for a face recognition-based attendance system, improving user interaction and usability by 30%.',
       'Developed and strengthened UI/UX components, enhancing system efficiency and reducing attendance processing time by 25%.',
@@ -320,6 +323,10 @@ function App() {
                 </ul>
                 <a href={project.link} target="_blank" rel="noreferrer">
                   Repository
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+                <a href={project.open} target="_blank" rel="noreferrer">
+                  Live Demo
                   <ArrowUpRight size={16} aria-hidden="true" />
                 </a>
               </article>
